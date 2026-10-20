@@ -1,0 +1,34 @@
+
+#menu {
+    display: none;
+}
+
+@media (max-width: 980px) {
+
+    #menu {
+        display: block;
+        float: right;
+        color: white;
+        font-size: 30px;
+        padding: 15px;
+        cursor: pointer;
+    }
+
+    .botonera {
+        display: none;
+        width: 100%;
+    }
+
+    .botonera-open {
+        display: block;
+    }
+
+    .botonera ul {
+        display: block;
+        background: darkblue;
+    }
+
+    .botonera a {
+        padding: 15px;
+    }
+}

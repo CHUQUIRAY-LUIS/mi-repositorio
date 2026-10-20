@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+#logo img {
+    width: 140px;
+    float: left;
+    margin-top: 8px;
+}
+
+.botonera {
+    float: right;
+}
+
+.botonera ul {
+    display: flex;
+    list-style: none;
+}
+
+.botonera a {
+    display: block;
+    color: white;
+    padding: 25px 18px;
+    text-decoration: none;
+}
+
+.botonera a:hover {
+    background: darkblue;
+}
+
+/* BANNER */
+
+.banner {
+    background: url("../img/banner.jpg") center/cover;
+    height: 100vh;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+}
+
+.cont-banner {
+    text-align: center;
+    color: white;
+    padding: 250px 20px 0;
+}
+
+.cont-banner h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+/* NOSOTROS */
+
+main {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+main h2 {
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.img-responsive {
+    width: 500px;
+    max-width: 100%;
+    margin-top: 25px;
+}
+
+/* FONDO */
+
+.fondo-parallax {
+    background: url("../img/family-home-desktop.jpg") center/cover;
+}
+
+.parallax {
+    padding: 100px 15%;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.5);
+}
+
+.parallax h2 {
+    margin-bottom: 15px;
+}

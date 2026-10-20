@@ -1,0 +1,86 @@
+
+.fondo-contactos {
+    background: #eaf4fa;
+    padding: 50px 0;
+}
+
+.text-contactos {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 25px;
+}
+
+.contactos {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact {
+    width: 45%;
+}
+
+.contact h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.listas {
+    padding-left: 25px;
+}
+
+.listas li {
+    margin-bottom: 15px;
+}
+
+.formulario {
+    background: darkblue;
+    color: white;
+    padding: 20px;
+}
+
+.formulario p {
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background: white;
+    color: darkblue;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* MAPA */
+
+.mapa {
+    text-align: center;
+    padding: 35px 0;
+}
+
+.mapa h2 {
+    margin-bottom: 15px;
+}
+
+.mapa p {
+    margin-bottom: 15px;
+}
+
+/* CELULARES */
+
+@media (max-width: 980px) {
+    .contactos {
+        display: block;
+    }
+
+    .contact {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
